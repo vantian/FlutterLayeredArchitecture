@@ -1,3 +1,4 @@
+
 # Flutter Layered Architecture
 
 A pragmatic, maintainable, and scalable Flutter architecture inspired by .NET backend best practices, featuring clear separation between **UI**, **Controller**, **Service**, **Repository**, and **Entity** layers.
@@ -9,14 +10,15 @@ A pragmatic, maintainable, and scalable Flutter architecture inspired by .NET ba
 > **Author:** [vantian](https://github.com/vantian)
 
 ## 📁 Folder Structure
-lib/
-├── core/ # Bindings, configuration, Dio client, utilities
-├── controllers/ # UI-facing controllers (GetX)
-├── entities/ # Data models / entities (fromJson/toJson)
-├── repositories/ # Base and feature repositories (CRUD, API)
-├── services/ # Business logic, orchestration
-├── views/ # UI widgets and screens
-├── routes/ # Route definitions and bindings
+
+    lib/
+    ├── core/ # Bindings, configuration, Dio client, utilities
+    ├── controllers/ # UI-facing controllers (GetX)
+    ├── entities/ # Data models / entities (fromJson/toJson)
+    ├── repositories/ # Base and feature repositories (CRUD, API)
+    ├── services/ # Business logic, orchestration
+    ├── views/ # UI widgets and screens
+    ├── routes/ # Route definitions and bindings
 
 ## 🏗️ Architecture Overview
 * View/UI <── Persentation layer
@@ -26,8 +28,8 @@ lib/
 * Entity/Model <── strongly-typed data
 
 ## 🛠️ Key Dependencies
-GetX: State management, DI, navigation
-Dio: Powerful HTTP client
+* GetX: State management, DI, navigation
+* Dio: Powerful HTTP client
 
 ---
 
